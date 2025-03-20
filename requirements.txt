@@ -1,0 +1,6 @@
+jupyter-book
+matplotlib
+numpy
+sphinxcontrib.mermaid
+sphinxcontrib.youtube
+sphinxcontrib-drawio

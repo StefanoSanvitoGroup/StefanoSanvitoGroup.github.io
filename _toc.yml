@@ -1,0 +1,22 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+
+parts:
+  - caption: Group
+    chapters:
+    - file: group.md
+
+  - caption: Research
+    chapters:
+    - file: research.md
+
+  - caption: HPC
+    chapters: 
+    - file: resources.md
+
+  - caption: Contact
+    chapters:
+    - file: contact.md
