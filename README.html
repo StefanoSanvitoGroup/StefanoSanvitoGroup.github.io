@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>group &#8212; Prof. Stefano Sanvito&#39;s group</title>
+    <title>Stefano Sanvito Group &#8212; Prof. Stefano Sanvito&#39;s group</title>
   
   
   
@@ -36,6 +36,7 @@
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/drawio.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css?v=653ae9c4" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
@@ -312,7 +313,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -323,11 +326,21 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>group</h1>
+    <h1>Stefano Sanvito Group</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Stefano Sanvito Group</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-of-the-source">Structure of the source</a></li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -337,8 +350,38 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="group">
-<h1>group<a class="headerlink" href="#group" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="stefano-sanvito-group">
+<h1>Stefano Sanvito Group<a class="headerlink" href="#stefano-sanvito-group" title="Link to this heading">#</a></h1>
+<p>This repository contains the source of the Prof. Sanvito’s Research and computational activities. Some of the pages are primarily for group members for technical guidelines, computational resources, practices and tutorials, but can be useful for outside researchers as well.</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="structure-of-the-source">
+<h1>Structure of the source<a class="headerlink" href="#structure-of-the-source" title="Link to this heading">#</a></h1>
+<p>This website is created using <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html">Jupyterbook</a>, based on <a class="reference external" href="https://www.sphinx-doc.org/en/master/">sphinx</a>.
+See the <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html">Jupyterbook</a> for more details. The source for this website uses <a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/index.html">MyST Markdown</a>.</p>
+<p>The structure of the files  looks like follows -</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">(</span>web<span class="o">)</span><span class="w"> </span>👽<span class="w"> </span><span class="m">618</span>-rajarshi<span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="o">(</span>main<span class="o">)</span>✗<span class="w">  </span>tree<span class="w"> </span>.
+.
+├──<span class="w"> </span>README.md
+├──<span class="w"> </span>_config.yml
+├──<span class="w"> </span>_static
+│<span class="w">   </span>└──<span class="w"> </span>style.css
+├──<span class="w"> </span>_toc.yml
+├──<span class="w"> </span>contact.md
+├──<span class="w"> </span>group.md
+├──<span class="w"> </span>index.md
+├──<span class="w"> </span>references.bib
+├──<span class="w"> </span>requirements.txt
+├──<span class="w"> </span>research.md
+└──<span class="w"> </span>resources.md
+...
+</pre></div>
+</div>
+<p>There are three types of files -</p>
+<ol class="arabic simple">
+<li><p>YAML files, with extension <code class="docutils literal notranslate"><span class="pre">.yml</span></code> which are used to define structure and build process of the pages. <code class="docutils literal notranslate"><span class="pre">_config.yml</span></code> file defines all the configurational options for building the pages, and <code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code> file defines the <a class="reference external" href="https://jupyterbook.org/en/stable/start/create.html#table-of-contents-toc-yml">table of contents</a>, and structure of the documents.</p></li>
+<li><p>CSS files, primarily stored in <code class="docutils literal notranslate"><span class="pre">_static</span></code> folder, and define the appearance settings for the webpages.</p></li>
+<li><p>Markdown files, with <code class="docutils literal notranslate"><span class="pre">.md</span></code> extension. These are primarily ones that contain the documentation information. Jupyterbook follows MyST format, which is quite feature rich for building pages and pdfs of the technical documents. Checkout the MyST features <a class="reference external" href="https://jupyterbook.org/en/stable/content/index.html">here</a>.</p></li>
+</ol>
 </section>
 
     <script type="text/x-thebe-config">
@@ -377,6 +420,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Stefano Sanvito Group</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-of-the-source">Structure of the source</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>
