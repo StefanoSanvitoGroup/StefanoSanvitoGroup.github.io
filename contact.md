@@ -1,6 +1,7 @@
 # Contact
 
----
+Contact Information
+
 > ## Principal Investigator and Group Leader
 
 **Prof. Stefano Sanvito**
