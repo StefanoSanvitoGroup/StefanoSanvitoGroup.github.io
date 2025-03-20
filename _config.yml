@@ -45,6 +45,8 @@ sphinx:
   config:
     html_show_copyright: false
     drawio_headless: auto
+    html_theme_options:
+      repository_provider: custom
 
 
 parse:
