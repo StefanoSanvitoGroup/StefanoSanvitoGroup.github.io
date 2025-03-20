@@ -3,7 +3,7 @@
 
 title: Prof. Stefano Sanvito's group
 author: rajarshi.tiwari@ichec.ie
-logo: logo.png
+logo: https://www.spincomp.com/wp-content/uploads/2016/08/cropped-header-1.jpg
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -21,7 +21,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/StefanoSanvitoGroup/group  # Online location of your book
+  url: https://github.com/StefanoSanvitoGroup.github.io  # Online location of your book
   path_to_book: ./ # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
