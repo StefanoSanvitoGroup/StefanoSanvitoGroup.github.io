@@ -1,0 +1,48 @@
+p {text-align: justify;}
+
+.bd-main .bd-content .bd-article-container {
+    max-width: 81em;  /* default is 60em */
+}
+
+html {
+    --pst-font-family-base: Verdana, var(--pst-font-family-base-system);
+    --pst-font-family-heading: Cambria, Georgia, Times, var(--pst-font-family-base-system);
+    --pst-font-family-monospace: Courier, var(--pst-font-family-monospace-system);
+}
+
+
+
+/*--------------------------------------------------------------------*\
+
+Styling for Tables
+
+- Improves styling of tables over the default Markdown standard
+- Adds borders to tables, and allows a rows to be highlighted when hovered
+
+\*--------------------------------------------------------------------*/ 
+
+th, td {
+    border: 1px solid #999999 !important; 
+    text-align: center; 
+    padding: 10px
+  }
+  
+th {
+    font-weight: bold; 
+    background-color: #EEEEEE;
+}
+  
+table caption {
+    color: black; 
+    text-align: center;
+}
+  
+table caption .footnote {
+    color: #666666; 
+    text-align: left; 
+    font-size: smaller;
+}
+  
+tr:hover {
+    background-color: #f7f7f7;
+}
